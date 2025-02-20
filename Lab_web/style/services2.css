@@ -65,12 +65,13 @@ a{
 }
 
 .nav .nav-links {
-  column-gap: 20px;
+  column-gap: 50px;
   list-style: none;
 }
 
 .nav .nav-links a{
   transition: all 0.2s linear;
+  /* font-size: 1.5rem; */
 }
 
 .nav .search-icon{
