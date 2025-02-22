@@ -122,17 +122,23 @@ a{
 }
 
 footer {
-  
   background-color: #ecb26f;
   color: white;
   text-align: center;
   justify-content: center;
   padding: 0.8rem;
-  position: absolute;
+  /* position: absolute; */
+  position: inherit;
   width: 100%;
   bottom: 0;
   height: 5vh;
 }
+
+main{
+  /* This is between the content and navbar */
+  margin-top: 8.5rem;
+}
+
 
 @media (max-width: 1160px){
   .nav{
@@ -145,6 +151,11 @@ footer {
 }
 
 @media (max-width: 768px){
+  main{
+    /* This is between the content and navbar */
+    margin-top: 12.5rem;
+  }
+
   .nav .navOpenBtn ,
   .nav .navCloseBtn{
     display: block;
