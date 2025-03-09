@@ -3,6 +3,9 @@
   // PDO stands for PHP data objects  
   // connect to database 
 
+  // { -> :
+  // } -> end + name of condition or loop, example: endif, endforeach
+
   define("PI","3.14");
 
   $age = 30;

@@ -6,7 +6,6 @@
   if (!$conn){
     echo 'Connection error: ' . mysqli_connect_error();
   }
-
   // write query for all data rows
   // $sql = 'SELECT * FROM Post ORDER BY Post_datetime DESC';
   $sql = 'SELECT * 
@@ -44,7 +43,7 @@
   <script src="https://kit.fontawesome.com/fdab99180b.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="../script/services2.js" defer></script>
-  <title>Services</title>
+  <title>Services 3</title>
 </head>
 <body>
 

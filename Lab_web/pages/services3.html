@@ -1,0 +1,57 @@
+<!-- Updated services2.html with Sorting & Filtering -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/services2.css">
+  <link rel="stylesheet" href="../style/cards.css">
+  <script src="https://kit.fontawesome.com/fdab99180b.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../script/services2.js" defer></script>
+  <title>Services</title>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a href="#" class="logo"> <img src="../image/output.jpg" alt=""> Gourmet</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Restaurants</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Suggests</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="filter-options">
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="a-z">A to Z</option>
+        <option value="z-a">Z to A</option>
+        <option value="latest">Latest</option>
+        <option value="oldest">Oldest</option>
+      </select>
+      
+      <label for="filter">Filter by column:</label>
+      <select id="filter">
+        <option value="name">Name of Restaurants</option>
+        <option value="type">Restaurant Type</option>
+        <option value="price">Price</option>
+        <option value="location">Location</option>
+        <option value="rating">Rating</option>
+      </select>
+    </div>
+
+    <div class="cards" id="services-list">
+      <!-- Dynamic Restaurant Cards Go Here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
