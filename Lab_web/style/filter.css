@@ -1,0 +1,11 @@
+.filter {
+  display: flex;
+  justify-content: flex-end; /* Pushes content to the right */
+  padding-right: 2rem; /* Optional: Adjust spacing from the right */
+}
+
+
+.filter-options{
+  padding: 15px 20px;
+  font-size: 1.5rem;
+}

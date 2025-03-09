@@ -28,10 +28,10 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 switch ($page) {
     case 'home':
-        require_once __DIR__ . '/pages/test.php';
+        require_once __DIR__ . '/pages/home.php';
         break;
     case 'posts':
-        require_once __DIR__ . '/pages/test.php';
+        require_once __DIR__ . '/pages/posts.php';
         break;
     default:
         echo "404 Page Not Found";
